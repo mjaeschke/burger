@@ -7,6 +7,13 @@ var connection = mysql.createConnection({
   password: "password1",
   database: "burgers_db"
 });
+//var connection = mysql.createConnection({
+  //host: "kf3k4aywsrp0d2is.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  //port: 3306,
+  //user: "ifbwu47donzphlg1",
+  //password: "nn41shhftfl687t9",
+  //database: "rmycfduzrtw24ekj"
+//});
 
 // Make connection.
 connection.connect(function(err) {
